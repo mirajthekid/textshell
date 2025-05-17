@@ -1,0 +1,22 @@
+{
+  "name": "ephemeral-chat",
+  "version": "1.0.0",
+  "description": "A global, real-time, one-on-one anonymous chat platform with ephemeral messages that prioritizes privacy, speed, and seamless real-time messaging.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": ["chat", "anonymous", "ephemeral", "websocket"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
